@@ -1,0 +1,6 @@
+{
+  "venvPath": "app",
+  "venv": ".venv",
+  "extraPaths": ["app"],
+  "reportImplicitRelativeImport": "none",
+}
