@@ -1,0 +1,4 @@
+DATABASE_URL=mysql+pymysql://app:app@localhost:3306/app
+
+# echo -n 830928b7d3c7 | sha256sum
+APIKEY=efc90b4ec77176ac55387fd13537ccbe6b21c67219f25f2c5e92ff8879933faa

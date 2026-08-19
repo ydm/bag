@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-source "$(dirname "$0")/config.sh"
 
 curl -s -X POST "$BASE_URL/products/" \
   -H "Content-Type: application/json" \

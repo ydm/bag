@@ -23,6 +23,7 @@ def get_db() -> Generator[Session, None, None]:
 
 
 def require_admin(api_key: ApiKey) -> None:
+    # print(f'[X] {api_key} {api_key.encode()} {hashlib.sha256(api_key.encode()).hexdigest()}')
     hashed = hashlib.sha256(api_key.encode()).hexdigest()
     if hashed != settings.apikey:
         raise HTTPException(status_code=403, detail="Forbidden")

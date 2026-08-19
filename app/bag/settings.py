@@ -10,4 +10,4 @@ class Settings(BaseSettings):
     apikey: str
 
 
-settings = Settings()
+settings = Settings()  # pyright: ignore[reportCallIssue]
